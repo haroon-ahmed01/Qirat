@@ -1,0 +1,7 @@
+{
+  "name": "qirat",
+  "private": true,
+  "scripts": {
+    "start": "cd server && npm start"
+  }
+}
