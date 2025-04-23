@@ -1,0 +1,114 @@
+/* surah.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.surah-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.surah-header {
+  background-color:  #59d88f;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.surah-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.surah-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.surah-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.surah-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.surah-nav-btn {
+  background-color: #85bd0c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.surah-nav-btn:hover {
+  background-color: #75a70b;
+}
+
+.loader {
+  border: 6px solid #f3f3f3; /* Light gray border */
+  border-top: 6px solid  #59d88f; /* Green border on top */
+  border-radius: 50%; /* Make it a circle */
+  width: 50px; /* Adjust size */
+  height: 50px; 
+  animation: spin 1s linear infinite; /* Rotation animation */
+  margin: 20px auto; /* Center the loader */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .surah-header {
+    padding: 20px;
+  }
+  
+  .surah-header h1 {
+    font-size: 2rem;
+  }
+  
+  .surah-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .surah-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .surah-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .surah-nav-btn {
+    width: 100%;
+  }
+}
