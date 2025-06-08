@@ -18,7 +18,7 @@ connectDB();
 
 // Middleware
 app.use(cors({ 
-  origin: ["http://localhost:5173"], 
+  origin: ["http://localhost:5173", 'https://qirat-frontend.onrender.com'], 
   credentials: true 
 }));
 app.use(bodyParser.json()); // Middleware to parse JSON request bodies

@@ -4,6 +4,7 @@ node_modules/
 # Ignore environment variables
 client/.env*
 server/.env*
+.env*  # Add this for root-level env files
 
 # Ignore logs
 logs/
@@ -22,6 +23,8 @@ server/dist/
 .vscode/
 .idea/
 .DS_Store
+.DS_Store?  # Add this variant
+._*  # Add this for macOS
 
 # Ignore system files
 *.sw?
@@ -29,3 +32,16 @@ server/dist/
 *.ntvs*
 *.njsproj
 *.sln
+Thumbs.db  # Add for Windows
+ehthumbs.db  # Add for Windows
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Additional useful entries
+coverage/  # Test coverage reports
+.nyc_output/  # NYC coverage
+*.tsbuildinfo  # TypeScript build info
+.eslintcache  # ESLint cache
