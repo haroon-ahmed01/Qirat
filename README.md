@@ -45,14 +45,3 @@ This project is fully self-built, with no external resources or team, driven pur
 - Database: MongoDB
 
 - Others: Speech Recognition API (in progress)
-
-🚀 Installation
-
-- Clone the repo
-git clone https://github.com/haroon-ahmed01/Qirat.git cd Qirat
-
-- Install dependencies
-npm install
-
-- Run the app
-npm start
