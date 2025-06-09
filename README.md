@@ -1,4 +1,4 @@
-Qirat – AI-Powered Quran Recitation & Memorization App
+Qirat – Quran Recitation & Memorization App
 
 🔗 Live Demo: https://qirat-frontend.onrender.com
 
