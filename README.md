@@ -47,4 +47,4 @@ This project is fully self-built, with no external resources or team, driven pur
 
 - Database: MongoDB
 
-- Others: Speech Recognition API (in progress)
+- Others: Web Speech API (in progress)
