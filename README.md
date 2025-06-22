@@ -1,11 +1,11 @@
 Qirat – Quran Recitation & Memorization App
 
-🔗 Live Demo: https://qirat-frontend.onrender.com
+Live Demo: https://qirat-frontend.onrender.com
 
 Tech Stack: MERN Stack, Tailwind CSS (In Progress)
 Focus: Voice Recognition, Personalized Recitation Feedback
 
-📌 Description
+Description
 Qirat is a personal Quran recitation and memorization assistant built to address a real-life problem:
 Many individuals, especially in busy households, find it difficult to recite the Quran to a qualified teacher (Ustad) for correction. This often leads to reciting incorrectly or losing motivation to memorize due to lack of feedback.
 
@@ -13,38 +13,42 @@ This idea originated from conversations in my neighborhood, where people shared 
 
 Inspired by this gap, I decided to build Qirat as a completely free and accessible platform where users can:
 
-- Recite the Quran verse-by-verse
+Recite the Quran verse-by-verse
 
-- Get instant feedback using voice recognition
+Get instant feedback using voice recognition
 
-- If a verse is recited correctly, it is displayed normally
+If a verse is recited correctly, it is displayed normally
 
-- If a verse is recited incorrectly, it appears highlighted in red
+If a verse is recited incorrectly, it appears highlighted in red
 
-- Track memorization progress without needing a teacher
+Track memorization progress without needing a teacher
 
 In short, Qirat acts like a "pocket Ustad", helping users recite and memorize the Quran with real-time corrections—anytime, anywhere.
 
 This project is fully self-built, with no external resources or team, driven purely by passion and a desire to make learning the Quran more accessible. Through this journey, I’ve not only grown as a software developer but also personally, by solving a meaningful problem through technology.
 
-🌟 Features
+Features
 
-- Clean UI for reading Quran digitally
+Clean UI for reading Quran digitally
 
-- Verse-by-verse translation alongside original Arabic
+Verse-by-verse translation alongside original Arabic
 
-- AI-based Speech Recognition (upcoming): Real-time feedback on user recitation
+AI-based Speech Recognition (upcoming): Real-time feedback on user recitation
 
-- Mistake highlighting to improve tajweed
+Mistake highlighting to improve tajweed
 
-- Fully responsive design using Tailwind CSS
+Fully responsive design using Tailwind CSS
 
-🛠️ Tech Stack
+Tech Stack
 
-- Frontend: React.js, Tailwind CSS
-  
-- Backend: Node.js, Express.js
+Frontend: React.js, Tailwind CSS
 
-- Database: MongoDB
+Backend: Node.js, Express.js
 
-- Others: Web Speech API (in progress)
+Database: MongoDB
+
+Others: Web Speech API (in progress)
+
+NOTE:
+Right now, the app doesn't follow a perfect folder or code structure. My main goal at this stage has been to get the core features working properly. Once all main functionalities are complete, I’ll focus on cleaning up the structure and organizing the code for better readability and scalability.
+
