@@ -6,6 +6,7 @@ Tech Stack: MERN Stack, Tailwind CSS (In Progress)
 Focus: Voice Recognition, Personalized Recitation Feedback
 
 Description
+
 Qirat is a personal Quran recitation and memorization assistant built to address a real-life problem:
 Many individuals, especially in busy households, find it difficult to recite the Quran to a qualified teacher (Ustad) for correction. This often leads to reciting incorrectly or losing motivation to memorize due to lack of feedback.
 
