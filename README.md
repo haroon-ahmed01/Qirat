@@ -1,7 +1,5 @@
 Qirat – Quran Recitation & Memorization App
 
-Live Demo: https://qirat-frontend.onrender.com
-
 Tech Stack: MERN Stack, Tailwind CSS (In Progress)
 Focus: Voice Recognition, Personalized Recitation Feedback
 
